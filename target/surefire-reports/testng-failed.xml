@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="LambdaTest.ProgressBarTest">
+        <methods>
+          <include name="loadApplication"/>
+          <include name="tearDown"/>
+          <include name="testProgressBarPercentage"/>
+          <include name="setUp"/>
+          <include name="getScreenShot"/>
+        </methods>
+      </class> <!-- LambdaTest.ProgressBarTest -->
+      <class name="TestNG.Parameterized.parameterizeTest">
+        <methods>
+          <include name="testFileDownLoad"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNG.Parameterized.parameterizeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
