@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataDrivenTesting.dataDrivenTest">
+      <class name="TECH_AND_MORE.ExceptionHandling">
         <methods>
-          <include name="setup"/>
-          <include name="testAjexForm"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- DataDrivenTesting.dataDrivenTest -->
+      </class> <!-- TECH_AND_MORE.ExceptionHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

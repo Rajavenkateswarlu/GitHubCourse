@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T09:48:12 IST" name="Default suite" finished-at="2024-06-10T09:49:03 IST" duration-ms="51121">
+  <suite started-at="2024-08-12T22:36:59 IST" name="Default suite" finished-at="2024-08-12T22:38:12 IST" duration-ms="73118">
     <groups>
     </groups>
-    <test started-at="2024-06-10T09:48:12 IST" name="Default test" finished-at="2024-06-10T09:49:03 IST" duration-ms="51121">
-      <class name="DropDownElements.DropDownSelect">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:DropDownElements.DropDownSelect@2794eab6]" started-at="2024-06-10T09:48:12 IST" name="setUp" finished-at="2024-06-10T09:49:03 IST" duration-ms="50748" status="PASS">
+    <test started-at="2024-08-12T22:36:59 IST" name="Default test" finished-at="2024-08-12T22:38:12 IST" duration-ms="73118">
+      <class name="FlipCart.GetProductName">
+        <test-method signature="getProductNames()[pri:0, instance:FlipCart.GetProductName@7d4f9aae]" started-at="2024-08-12T22:36:59 IST" name="getProductNames" finished-at="2024-08-12T22:38:12 IST" duration-ms="73053" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="selctFromDropDownIndex()[pri:3, instance:DropDownElements.DropDownSelect@2794eab6]" started-at="2024-06-10T09:49:03 IST" name="selctFromDropDownIndex" finished-at="2024-06-10T09:49:03 IST" duration-ms="320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selctFromDropDownIndex -->
-      </class> <!-- DropDownElements.DropDownSelect -->
+        </test-method> <!-- getProductNames -->
+      </class> <!-- FlipCart.GetProductName -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
